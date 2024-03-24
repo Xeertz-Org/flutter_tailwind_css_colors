@@ -1,6 +1,15 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_tailwind_colors/flutter_tailwind_colors.dart';
 
-void main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+class Example extends StatelessWidget {
+  const Example({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        color: TWColors.orange.i500,
+      )
+    );
+  }
 }
