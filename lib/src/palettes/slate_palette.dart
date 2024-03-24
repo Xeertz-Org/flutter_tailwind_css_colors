@@ -2,8 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter_tailwind_colors/src/tw_intensity.dart';
 
-final Map<TwIntensity, Color> grayPalette = {
-  TwIntensity.i50: Color(0xffF9FAFB),
+final Map<TwIntensity, Color> slatePalette = {
+  TwIntensity.i50: Color(0xfff8fafc),
   TwIntensity.i100: Color(0xfff1f5f9),
   TwIntensity.i200: Color(0xffe2e8f0),
   TwIntensity.i300: Color(0xffcbd5e1),

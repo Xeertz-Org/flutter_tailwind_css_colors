@@ -68,7 +68,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwAmber().i950,
-        Color(0xff0a0a0a),
+        Color(0xff451a03),
       );
     });
   });
@@ -137,7 +137,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwBlue().i950,
-        Color(0xff0a0a0a),
+        Color(0xff172554),
       );
     });
   });
@@ -206,7 +206,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwCyan().i950,
-        Color(0xff0a0a0a),
+        Color(0xff083344),
       );
     });
   });
@@ -275,7 +275,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwEmerald().i950,
-        Color(0xff0a0a0a),
+        Color(0xff022c22),
       );
     });
   });
@@ -344,7 +344,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwFuchsia().i950,
-        Color(0xff0a0a0a),
+        Color(0xff4a044e),
       );
     });
   });
@@ -413,7 +413,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwGray().i950,
-        Color(0xff0a0a0a),
+        Color(0xff020617),
       );
     });
   });
@@ -482,7 +482,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwGreen().i950,
-        Color(0xff0a0a0a),
+        Color(0xff052e16),
       );
     });
   });
@@ -551,7 +551,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwIndigo().i950,
-        Color(0xff0a0a0a),
+        Color(0xff1e1b4b),
       );
     });
   });
@@ -620,7 +620,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwLime().i950,
-        Color(0xff0a0a0a),
+        Color(0xff1a2e05),
       );
     });
   });
@@ -758,7 +758,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwOrange().i950,
-        Color(0xff0a0a0a),
+        Color(0xff431407),
       );
     });
   });
@@ -827,7 +827,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwPink().i950,
-        Color(0xff0a0a0a),
+        Color(0xff500724),
       );
     });
   });
@@ -896,7 +896,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwPurple().i950,
-        Color(0xff0a0a0a),
+        Color(0xff3b0764),
       );
     });
   });
@@ -965,7 +965,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwRed().i950,
-        Color(0xff0a0a0a),
+        Color(0xff450a0a),
       );
     });
   });
@@ -1034,7 +1034,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwRose().i950,
-        Color(0xff0a0a0a),
+        Color(0xff4c0519),
       );
     });
   });
@@ -1103,7 +1103,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwSky().i950,
-        Color(0xff0a0a0a),
+        Color(0xff082f49),
       );
     });
   });
@@ -1172,7 +1172,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwTeal().i950,
-        Color(0xff0a0a0a),
+        Color(0xff042f2e),
       );
     });
   });
@@ -1241,7 +1241,7 @@ void main() {
     test('Test i950', () {
       expect(
         TwViolet().i950,
-        Color(0xff0a0a0a),
+        Color(0xff2e1065),
       );
     });
   });
@@ -1310,7 +1310,76 @@ test('Test i50', () {
     test('Test i950', () {
       expect(
         TwYellow().i950,
-        Color(0xff0a0a0a),
+        Color(0xff422006),
+      );
+    });
+  });
+
+  group('Test zinc', () {
+    test('Test i50', () {
+      expect(
+        TwZinc().i50,
+        Color(0xfffafafa),
+      );
+    });
+    test('Test i100', () {
+      expect(
+        TwZinc().i100,
+        Color(0xfff4f4f5),
+      );
+    });
+    test('Test i200', () {
+      expect(
+        TwZinc().i200,
+        Color(0xffe4e4e7),
+      );
+    });
+    test('Test i300', () {
+      expect(
+        TwZinc().i300,
+        Color(0xffd4d4d8),
+      );
+    });
+    test('Test i400', () {
+      expect(
+        TwZinc().i400,
+        Color(0xffa1a1aa),
+      );
+    });
+    test('Test i500', () {
+      expect(
+        TwZinc().i500,
+        Color(0xff71717a),
+      );
+    });
+    test('Test i600', () {
+      expect(
+        TwZinc().i600,
+        Color(0xff52525b),
+      );
+    });
+    test('Test i700', () {
+      expect(
+        TwZinc().i700,
+        Color(0xff3f3f46),
+      );
+    });
+    test('Test i800', () {
+      expect(
+        TwZinc().i800,
+        Color(0xff27272a),
+      );
+    });
+    test('Test i900', () {
+      expect(
+        TwZinc().i900,
+        Color(0xff18181b),
+      );
+    });
+    test('Test i950', () {
+      expect(
+        TwZinc().i950,
+        Color(0xff09090b),
       );
     });
   });

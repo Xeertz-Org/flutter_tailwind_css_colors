@@ -115,6 +115,20 @@ void main() {
     );
   });
 
+  test('Test slate', () {
+    expect(
+      TWColors.slate,
+      TwSlate(),
+    );
+  });
+
+  test('Test stone', () {
+    expect(
+      TWColors.stone,
+      TwStone(),
+    );
+  });
+
   test('Test teal', () {
     expect(
       TWColors.teal,
@@ -133,6 +147,13 @@ void main() {
     expect(
       TWColors.yellow,
       TwYellow(),
+    );
+  });
+
+  test('Test zinc', () {
+    expect(
+      TWColors.zinc,
+      TwZinc(),
     );
   });
 }

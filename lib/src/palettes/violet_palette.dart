@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> violetPalette = {
   TwIntensity.i700: Color(0xff6d28d9),
   TwIntensity.i800: Color(0xff5b21b6),
   TwIntensity.i900: Color(0xff4c1d95),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff2e1065),
 };

@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> bluePalette = {
   TwIntensity.i700: Color(0xff1d4ed8),
   TwIntensity.i800: Color(0xff1e40af),
   TwIntensity.i900: Color(0xff1e3a8a),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff172554),
 };

@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> amberPalette = {
   TwIntensity.i700: Color(0xffc25e00),
   TwIntensity.i800: Color(0xff9d4e00),
   TwIntensity.i900: Color(0xff8a3e00),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff451a03),
 };

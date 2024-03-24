@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> fuchsiaPalette = {
   TwIntensity.i700: Color(0xffbe185d),
   TwIntensity.i800: Color(0xff9d174d),
   TwIntensity.i900: Color(0xff831843),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff4a044e),
 };

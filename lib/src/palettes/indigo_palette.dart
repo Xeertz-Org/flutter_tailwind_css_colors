@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> indigoPalette = {
   TwIntensity.i700: Color(0xff4338CA),
   TwIntensity.i800: Color(0xff3730A3),
   TwIntensity.i900: Color(0xff312E81),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff1e1b4b),
 };

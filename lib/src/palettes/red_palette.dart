@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> redPalette = {
   TwIntensity.i700: Color(0xffb91c1c),
   TwIntensity.i800: Color(0xff991b1b),
   TwIntensity.i900: Color(0xff7f1d1d),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff450a0a),
 };

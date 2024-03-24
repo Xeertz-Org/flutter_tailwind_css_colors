@@ -17,7 +17,10 @@ abstract class TWColors {
   static final TwRed red = TwRed();
   static final TwRose rose = TwRose();
   static final TwSky sky = TwSky();
+  static final TwSlate slate = TwSlate();
+  static final TwStone stone = TwStone();
   static final TwTeal teal = TwTeal();
   static final TwViolet violet = TwViolet();
   static final TwYellow yellow = TwYellow();
+  static final TwZinc zinc = TwZinc();
 }

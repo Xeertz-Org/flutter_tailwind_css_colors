@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> pinkPalette = {
   TwIntensity.i700: Color(0xffc81e1e),
   TwIntensity.i800: Color(0xff9b1c1c),
   TwIntensity.i900: Color(0xff771d1d),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff500724),
 };

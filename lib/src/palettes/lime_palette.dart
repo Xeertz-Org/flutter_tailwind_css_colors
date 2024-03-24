@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> limePalette = {
   TwIntensity.i700: Color(0xff4d7c0f),
   TwIntensity.i800: Color(0xff3f6212),
   TwIntensity.i900: Color(0xff365314),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff1a2e05),
 };

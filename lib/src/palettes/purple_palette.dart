@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> purplePalette = {
   TwIntensity.i700: Color(0xff6b21a8),
   TwIntensity.i800: Color(0xff581c87),
   TwIntensity.i900: Color(0xff4c186b),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff3b0764),
 };

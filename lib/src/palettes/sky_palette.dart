@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> skyPalette = {
   TwIntensity.i700: Color(0xff0369A1),
   TwIntensity.i800: Color(0xff075985),
   TwIntensity.i900: Color(0xff0C4A6E),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff082f49),
 };

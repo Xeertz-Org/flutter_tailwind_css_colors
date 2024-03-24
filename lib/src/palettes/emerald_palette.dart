@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> emeraldPalette = {
   TwIntensity.i700: Color(0xff047857),
   TwIntensity.i800: Color(0xff065f46),
   TwIntensity.i900: Color(0xff064e3b),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff022c22),
 };

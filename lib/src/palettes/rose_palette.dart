@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> rosePalette = {
   TwIntensity.i700: Color(0xffbe123c),
   TwIntensity.i800: Color(0xff9f1239),
   TwIntensity.i900: Color(0xff521B41),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff4c0519),
 };

@@ -17,9 +17,12 @@ import 'package:flutter_tailwind_colors/src/palettes/purple_palette.dart';
 import 'package:flutter_tailwind_colors/src/palettes/red_palette.dart';
 import 'package:flutter_tailwind_colors/src/palettes/rose_palette.dart';
 import 'package:flutter_tailwind_colors/src/palettes/sky_palette.dart';
+import 'package:flutter_tailwind_colors/src/palettes/slate_palette.dart';
+import 'package:flutter_tailwind_colors/src/palettes/stone_palette.dart';
 import 'package:flutter_tailwind_colors/src/palettes/teal_palette.dart';
 import 'package:flutter_tailwind_colors/src/palettes/violet_palette.dart';
 import 'package:flutter_tailwind_colors/src/palettes/yellow_palette.dart';
+import 'package:flutter_tailwind_colors/src/palettes/zinc_palette.dart';
 import 'package:flutter_tailwind_colors/src/tw_intensity.dart';
 
 sealed class TwColor extends Equatable {
@@ -117,6 +120,14 @@ final class TwSky extends TwColor {
   TwSky() : super(skyPalette);
 }
 
+final class TwSlate extends TwColor {
+  TwSlate() : super(slatePalette);
+}
+
+final class TwStone extends TwColor {
+  TwStone() : super(stonePalette);
+}
+
 final class TwTeal extends TwColor {
   TwTeal() : super(tealPalette);
 }
@@ -127,4 +138,8 @@ final class TwViolet extends TwColor {
 
 final class TwYellow extends TwColor {
   TwYellow() : super(yellowPalette);
+}
+
+final class TwZinc extends TwColor {
+  TwZinc() : super(zincPalette);
 }

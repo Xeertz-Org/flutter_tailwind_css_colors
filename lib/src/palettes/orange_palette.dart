@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> orangePalette = {
   TwIntensity.i700: Color(0xffc2410c),
   TwIntensity.i800: Color(0xff9a3412),
   TwIntensity.i900: Color(0xff7c2d12),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff431407),
 };

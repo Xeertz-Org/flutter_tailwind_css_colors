@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> cyanPalette = {
   TwIntensity.i700: Color(0xff0E7490),
   TwIntensity.i800: Color(0xff155E75),
   TwIntensity.i900: Color(0xff164E63),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff083344),
 };

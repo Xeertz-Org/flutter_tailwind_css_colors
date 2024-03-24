@@ -13,5 +13,5 @@ final Map<TwIntensity, Color> tealPalette = {
   TwIntensity.i700: Color(0xff0F766E),
   TwIntensity.i800: Color(0xff115E59),
   TwIntensity.i900: Color(0xff134E4A),
-  TwIntensity.i950: Color(0xff0a0a0a),
+  TwIntensity.i950: Color(0xff042f2e),
 };
