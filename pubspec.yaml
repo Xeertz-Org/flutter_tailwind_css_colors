@@ -1,6 +1,6 @@
 name: flutter_tailwind_css_colors
 description: A pure Dart implementation around Tailwind CSS colors.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/Xeertz-Org/flutter_tailwind_css_colors
 
 environment:
