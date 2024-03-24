@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:flutter_tailwind_colors/src/tw_color.dart';
+import 'package:flutter_tailwind_css_colors/src/tw_color.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -1247,7 +1247,7 @@ void main() {
   });
 
   group('Test yellow', () {
-test('Test i50', () {
+    test('Test i50', () {
       expect(
         TwYellow().i50,
         Color(0xfffefce8),

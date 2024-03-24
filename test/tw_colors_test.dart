@@ -1,5 +1,5 @@
-import 'package:flutter_tailwind_colors/src/tw_color.dart';
-import 'package:flutter_tailwind_colors/src/tw_colors.dart';
+import 'package:flutter_tailwind_css_colors/src/tw_color.dart';
+import 'package:flutter_tailwind_css_colors/src/tw_colors.dart';
 import 'package:test/test.dart';
 
 void main() {

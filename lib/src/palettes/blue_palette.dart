@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:flutter_tailwind_colors/src/tw_intensity.dart';
+import 'package:flutter_tailwind_css_colors/src/tw_intensity.dart';
 
 final Map<TwIntensity, Color> bluePalette = {
   TwIntensity.i50: Color(0xffeff6ff),
