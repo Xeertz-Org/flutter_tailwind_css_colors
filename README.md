@@ -139,3 +139,6 @@ Widget widget = TwThemeBuilder3
   ,
 );
 ```
+
+## Issues and feedback
+Please report any issue, bug or feature request in our [issue tracker](https://github.com/Xeertz-Org/flutter_tailwind_css_colors/issues)
