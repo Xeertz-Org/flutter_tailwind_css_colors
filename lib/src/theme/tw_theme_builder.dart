@@ -3,9 +3,17 @@ import 'package:flutter_tailwind_css_colors/src/theme/provider/tw_theme_notifier
 import 'package:flutter_tailwind_css_colors/src/theme/provider/tw_theme_provider.dart';
 import 'package:flutter_tailwind_css_colors/src/utils/utils.dart';
 
+/// A widget that builds its child based on the current theme set in the [TwTheme] widget.
+/// You provide two colors, one for light theme and one for dark theme, and the build function returns the selected color
+/// based on the current theme.
 class TwThemeBuilder extends StatelessWidget {
+  /// The color to use in dark mode.
   final Color darkValue;
+
+  /// The color to use in light mode.
   final Color value;
+
+  /// The builder function that returns the selected color based on the current theme.
   final Widget Function(BuildContext context, Color color) builder;
 
   const TwThemeBuilder({
@@ -32,6 +40,9 @@ class TwThemeBuilder extends StatelessWidget {
   }
 }
 
+/// A widget that builds its child based on the current theme set in the [TwTheme] widget.
+/// You provide four colors, two for light theme and two for dark theme, and the build function returns the selected colors
+/// based on the current theme.
 class TwThemeBuilder2 extends StatelessWidget {
   final Color darkValue;
   final Color darkValue2;
@@ -75,6 +86,9 @@ class TwThemeBuilder2 extends StatelessWidget {
   }
 }
 
+/// A widget that builds its child based on the current theme set in the [TwTheme] widget.
+/// You provide six colors, three for light theme and three for dark theme, and the build function returns the selected colors
+/// based on the current theme.
 class TwThemeBuilder3 extends StatelessWidget {
   final Color darkValue;
   final Color darkValue2;
@@ -129,6 +143,9 @@ class TwThemeBuilder3 extends StatelessWidget {
   }
 }
 
+/// A widget that builds its child based on the current theme set in the [TwTheme] widget.
+/// You provide eight colors, four for light theme and four for dark theme, and the build function returns the selected colors
+/// based on the current theme.
 class TwThemeBuilder4 extends StatelessWidget {
   final Color darkValue;
   final Color darkValue2;
@@ -194,6 +211,9 @@ class TwThemeBuilder4 extends StatelessWidget {
   }
 }
 
+/// A widget that builds its child based on the current theme set in the [TwTheme] widget.
+/// You provide ten colors, five for light theme and five for dark theme, and the build function returns the selected colors
+/// based on the current theme.
 class TwThemeBuilder5 extends StatelessWidget {
   final Color darkValue;
   final Color darkValue2;
@@ -270,6 +290,9 @@ class TwThemeBuilder5 extends StatelessWidget {
   }
 }
 
+/// A widget that builds its child based on the current theme set in the [TwTheme] widget.
+/// You provide twelve colors, six for light theme and six for dark theme, and the build function returns the selected colors
+/// based on the current theme.
 class TwThemeBuilder6 extends StatelessWidget {
   final Color darkValue;
   final Color darkValue2;

@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tailwind_css_colors/src/theme/provider/tw_theme_notifier.dart';
 import 'package:flutter_tailwind_css_colors/src/theme/provider/tw_theme_provider.dart';
 
+/// A widget that provides theme management for its child widget.
 class TwTheme extends StatefulWidget {
+  /// The selected theme mode.
   final ThemeMode themeMode;
+
+  /// The child widget that will be affected by the theme.
   final Widget child;
 
   const TwTheme({

@@ -1,5 +1,3 @@
-library;
-
 export 'src/colors/tw_color.dart' show TwColor, TwIntensity;
 export 'src/colors/tw_colors.dart';
 export 'src/gradients/tw_gradient.dart';

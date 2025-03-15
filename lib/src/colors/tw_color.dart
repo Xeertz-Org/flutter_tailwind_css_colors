@@ -24,6 +24,8 @@ import 'package:flutter_tailwind_css_colors/src/colors/palettes/violet_palette.d
 import 'package:flutter_tailwind_css_colors/src/colors/palettes/yellow_palette.dart';
 import 'package:flutter_tailwind_css_colors/src/colors/palettes/zinc_palette.dart';
 
+/// Enum that represent the intensity of a Tailwind CSS color.
+/// The smaller the number, the more pale the color. The greater the number, the darker the color.
 enum TwIntensity {
   i50,
   i100,
@@ -38,31 +40,43 @@ enum TwIntensity {
   i950;
 }
 
+/// Abstract class that represent a Tailwind CSS color.
 sealed class TwColor extends Equatable {
   final Map<TwIntensity, Color> _palette;
 
   const TwColor(this._palette);
 
+  /// The lightest intensity of the color.
   Color get i50 => _palette[TwIntensity.i50]!;
 
+  /// The second lightest intensity of the color.
   Color get i100 => _palette[TwIntensity.i100]!;
 
+  /// The third lightest intensity of the color.
   Color get i200 => _palette[TwIntensity.i200]!;
 
+  /// The fourth lightest intensity of the color.
   Color get i300 => _palette[TwIntensity.i300]!;
 
+  /// The fifth lightest intensity of the color.
   Color get i400 => _palette[TwIntensity.i400]!;
 
+  /// The default intensity of the color.
   Color get i500 => _palette[TwIntensity.i500]!;
 
+  /// The fifth darkest intensity of the color.
   Color get i600 => _palette[TwIntensity.i600]!;
 
+  /// The fourth darkest intensity of the color.
   Color get i700 => _palette[TwIntensity.i700]!;
 
+  /// The third darkest intensity of the color.
   Color get i800 => _palette[TwIntensity.i800]!;
 
+  /// The second darkest intensity of the color.
   Color get i900 => _palette[TwIntensity.i900]!;
 
+  /// The darkest intensity of the color.
   Color get i950 => _palette[TwIntensity.i950]!;
 
   @override

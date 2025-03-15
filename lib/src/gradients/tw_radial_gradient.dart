@@ -1,10 +1,18 @@
 import 'package:flutter/painting.dart';
 import 'package:flutter_tailwind_css_colors/src/gradients/tw_gradient.dart';
 
+/// A class that represents a Tailwind CSS radial gradient.
 final class TwRadialGradient extends TwGradient {
+  /// An [AlignmentGeometry] object defining the center of the gradient. The default is [Alignment.center]
   final AlignmentGeometry center;
+
+  /// A double value defining the radius of the gradient. The default is 0.5.
   final double radius;
+
+  /// An optional [AlignmentGeometry] object defining the focal point of the gradient.
   final AlignmentGeometry? focal;
+
+  /// A double value defining the radius of the focal point. The default is 0.0.
   final double focalRadius;
 
   const TwRadialGradient({
